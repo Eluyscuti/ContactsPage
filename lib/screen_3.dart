@@ -1,18 +1,46 @@
-import 'package:flutter/material.dart';
+class Contact {
+  String name;
+  String role;
 
-class Screen3 extends StatefulWidget {
-  @override
-  _Screen3State createState() => _Screen3State();
+  Contact({
+    required this.name,
+    required this.role
+
+  });
 }
 
-class _Screen3State extends State<Screen3> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      //replace the body with the code for your page
-      body: Center(
-        child: Text('Page 3'),
-      ),
-    );
-  }
-}
+List contacts = [
+  Contact(name: "jeff", role: "manager"),
+  Contact(name: "joe", role: "student"),
+  Contact(name: "nellie", role: "manager"),
+  Contact(name: "bob", role: "student"),
+  Contact(name: "jeff", role: "manager"),
+  Contact(name: "joe", role: "student"),
+  Contact(name: "nellie", role: "manager"),
+  Contact(name: "bob", role: "student"),
+  Contact(name: "jeff", role: "manager"),
+  Contact(name: "joe", role: "student"),
+  Contact(name: "nellie", role: "manager"),
+  Contact(name: "bob", role: "student"),
+  Contact(name: "jeff", role: "manager"),
+  Contact(name: "joe", role: "student"),
+  Contact(name: "nellie", role: "manager"),
+  Contact(name: "bob", role: "student"),
+  Contact(name: "jeff", role: "manager"),
+  Contact(name: "joe", role: "student"),
+  Contact(name: "nellie", role: "manager"),
+  Contact(name: "bob", role: "student"),
+  Contact(name: "jeff", role: "manager"),
+  Contact(name: "joe", role: "student"),
+  Contact(name: "nellie", role: "manager"),
+  Contact(name: "bob", role: "student"),
+  Contact(name: "jeff", role: "manager"),
+  Contact(name: "joe", role: "student"),
+  Contact(name: "nellie", role: "manager"),
+  Contact(name: "bob", role: "student"),
+  Contact(name: "jeff", role: "manager"),
+  Contact(name: "joe", role: "student"),
+  Contact(name: "nellie", role: "manager"),
+  Contact(name: "bob", role: "student"),
+
+];

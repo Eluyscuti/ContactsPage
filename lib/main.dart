@@ -33,7 +33,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
 
-  List pages = [Screen1(), Screen2(), Screen3(), Screen4()];
+  List pages = [Screen1(), Screen4()];
 
   @override
   Widget build(BuildContext context) {

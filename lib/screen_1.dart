@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:four_page_app_template/screen_2.dart';
+import 'package:four_page_app_template/screen_3.dart';
 
 class Screen1 extends StatefulWidget {
   @override
@@ -58,8 +60,16 @@ class _Screen1State extends State<Screen1> {
         backgroundColor: Colors.blue[900],
       ),
       body: Center(
-        child: Text('contacts'),
+        child: ListView(
+          children: [
+            for (var item = 0; item < contacts.length; item ++)
+              Contact_Box(index: item)
+          ]
+
+        ),
+
       ),
+      backgroundColor: Colors.grey[400],
     );
   }
 }
